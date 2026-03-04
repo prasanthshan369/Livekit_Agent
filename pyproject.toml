@@ -1,0 +1,12 @@
+[project]
+name = "jarvis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "livekit-agents[google]~=1.4",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "python-dotenv>=1.2.2",
+]
